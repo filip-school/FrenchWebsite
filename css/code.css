@@ -1,0 +1,74 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+	font-weight: bolder;
+	text-align: center;
+	color: white;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+	font-weight: bolder;
+	text-align: center;
+	max-width: 50ch;
+	margin: 0 auto;
+	text-indent: 50px;
+	color: white;
+}
+.active {
+	color: #38b7ff;
+	font-family: 'Roboto', sans-serif;
+}
+.sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color:  #292929 ;
+	overflow-x: hidden;
+	padding-top: 60px;
+	transition: 0.5s;
+}
+.sidenav a {
+	padding: 8px 8px 8px 8px;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	display: block;
+	transition: 0.3s;
+}
+.sidenav a:hover, .sidenav a:active, .offcanvas a:focus {
+	color:   #0075b7 ;
+}
+.sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+#main {
+	transition: margin-left .5s;
+	padding: 20px;
+}
+@media screen and (max-height: 450px) {
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+}
+span:hover {
+	font-size: 40px;
+	display: block;
+	color:   white;
+	/*padding: 8px 8px 8px 8px;*/
+	font-family: 'Roboto', sans-serif;
+	font-weight: bolder;
+}
+span {
+	color: white;
+	font-size: 40px;
+	font-family: 'Roboto', sans-serif;
+	display: block;
+	/*padding: 8px 8px 8px 8px;*/
+	font-weight: bolder;
+}
